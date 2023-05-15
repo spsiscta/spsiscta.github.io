@@ -6,20 +6,35 @@
 	<body><center>
 
 </br>
-<h2 align="center" maxlength="15" size="28" type="text"><strong>Validasi DATA</strong></h2>
+<h1 align="center" maxlength="15" size="28" type="text"><strong>Validasi Data</strong></h1>
 </br>
 <p align="center" maxlength="15" size="28" type="text">Masukan </br>Nomor Kartu Anggota</p>
  <input name="txtSearch" maxlength="20" size="38" type="number" class="field" id="txtSearch" />
 <div>&nbsp;</div>
 
-<div class="button" >
+<div class="button" input="submit">
 <a  onclick='window.location.href="https://spsiscta.github.io/database/" + document.getElementById("txtSearch").value + ".html";'
-	style="border: solid 1px #aaa; background: #ccc; padding: 15px; -moz-border-radius: 15px; 
-	-khtml-border-radius: 15px; -webkit-border-radius: 15px; border-radius: 15px; margin: 0; text-align: justify; 
-	line-height: 23px; color: black; font-size: 18px"><strong>CARI</strong></a>
+	><strong>CARI</strong></a>
 </div>
 
-
+<style>
+a, button,input[type=submit],input[type=reset] {
+    font-family: ;
+    font-size: 15px;
+    background: #656f73;
+    color: white;
+    border: white 3px solid;
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin-top: 10px;
+}
+a {
+    text-decoration: none;
+}
+a:hover, button:hover, input[type=submit]:hover, input[type=reset]:hover{
+    opacity:0.9;
+}
+</style>
 
 
 </body>
